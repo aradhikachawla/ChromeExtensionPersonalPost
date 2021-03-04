@@ -23,7 +23,7 @@
         margin: 0;
         min-height: 180px;
         padding: 0;
-        width: 384px;
+        width: 500px;
       }
 
       h1 {
@@ -95,28 +95,39 @@
         color: #2f5876;
       }
     </style>
+    <script src="p5.js"></script>
+    <script src="popup.js"></script>
+
   </head>
 
   <body>
     <div class="modal-header">
       <h1 class="logo">
-        <img class="logo-icon" src="images/traversy-logo.png" />Bookmark Launcher
+        <img class="logo-icon" src="Salesflags.png" />
+        Linkedin Activities Extractor
         <span class="version">(1.0.0)</span>
       </h1>
     </div>
+
     <div class="modal-content">
-      <p>Easily Access to Linkedin</p>
+      <b><p>Make sure you are on Linkedin / Posts and Activity / Posts tab </p></b>
+      <b><p>Scroll down on the page to get most of your Posts</p></b>
+      <b><p>Refresh the page to make the tab active if idle</p></b>
     </div>
+
+
     <div class="modal-icons">
       <div class="flex-container">
        
         <div class="flex">
-          <a href="https://www.linkedin.com/in/aradhika-chawla-45ba3015/detail/recent-activity/shares/" target="_blank">
+          <a href="https://www.linkedin.com/feed/" target="_blank">
             <i class="fa fa-linkedin-square" style="color:darksalmon "></i>
           </a>
         </div>
-        
+
+        <button type="button" id="userButton" name="userButton" >Click here to get Personal Posts</button>
+
       </div>
-    </div>
+    </div>.
   </body>
 </html>
